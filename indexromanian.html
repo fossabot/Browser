@@ -11,19 +11,39 @@
 	<script id="promo-loader" src="chrome-search://local-ntp/promo.js"></script>
 	<script src="chrome-search://local-ntp/doodle.js"></script>
 	<script src="chrome-search://local-ntp/doodle.js?v=48" gapi_processed="true"></script>
+	
 </head>
 <body>
+
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  		$('.settingicon').click(function(){
+  			$('.settings').show();
+  		})
+  	})
+  </script>
+    <script type="text/javascript">
+  	$(document).ready(function(){
+  		  $('.settings').hide();
+  	})
+  </script>
+
+
+
+  <a class="grey4" href="https://myactivity.google.com/item?restrict=search&utm_source=google&hl=ro&fg=1">History</a>
     <p class="network"><a class="one">N</a><a class="two">e</a><a class="three">t</a><a class="four">w</a><a class="five">o</a><a class="six">r</a><a class="seven">k</a></p>
 	   <form action="https://www.google.com/search" method="GET">
-		<input id="search" class="search" type="text" name="q" placeholder="Caută ceva sau scrie un URL">
+		<input id="search" class="search" type="text" name="q" placeholder="Search Google or type an URL">
 	</form>
-    <a class="grey" href="about.html">Despre</a>
-    <a class="lang">Română</a>
+    <a class="grey" href="about.html">About</a>
+    <a class="lang">English</a>
 
-    <a class="grey2">Descarca aplicatia pentru Desktop</a>
+    <a class="grey2">Download the desktop app</a>
 </div>
     <ul>
-    	<a href="index.html">
+    	<a href="indexromanian.html">
     	<li>
     		<span><img id="ro" class="ro" src="romania.png"></span>
     		<span><img class="england" src="england.png"></span>
@@ -44,7 +64,7 @@
 <a class="discord" href="https://www.discordapp.com">Discord</a>
 </div>
 
-<p class="copyright">Acest browser a fost facut de o persoana</p>
+<p class="copyright">This Browser was made by a person</p>
 
 
 <div class="bottom1"></div>

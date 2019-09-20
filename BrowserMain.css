@@ -3,7 +3,8 @@
 body{
 	padding: 0;
 	margin: 0;
-	background: ;
+	background: black;
+	overflow: hidden;
 			user-drag: none; 
 user-select: none;
 -moz-user-select: none;
@@ -16,7 +17,7 @@ user-select: none;
 	font-family: 'Roboto', sans-serif;
 	font-style: bolder;
 	font-weight: 1000;
-	
+	color: white;
 	font-size: 60px;
 	position: absolute;
 	top: 140px;
@@ -55,7 +56,7 @@ user-select: none;
 	font-family: arial;
 	font-weight: bold;
 	font-style: bold;
-	color: rgb(37, 37, 37);
+	color: rgb(140, 140, 140);
 	text-decoration: none;
 }	
 
@@ -87,7 +88,7 @@ user-select: none;
 	font-family: arial;
 	font-weight: bold;
 	font-style: bold;
-	color: rgb(37, 37, 37);
+	color: rgb(140, 140, 140);
 	text-decoration: none;
 }	
 
@@ -119,7 +120,7 @@ user-select: none;
 	font-family: arial;
 	font-weight: bold;
 	font-style: bold;
-	color: rgb(37, 37, 37);
+	color: rgb(140, 140, 140);
 	text-decoration: none;
 }	
 
@@ -153,7 +154,7 @@ user-select: none;
 	left: 0px;
 	width: 1366px;
 	height: 80px;
-	background: rgb(234, 234, 234);
+	background: rgb(24, 24, 24);
 	border-width: 1px;
 	border-color: black;
 }
@@ -190,13 +191,13 @@ ul li span{
 	height: 30px;
 	line-height: 30px;
 	width: 100px;
-	background: white;
+	background: black;
 	color: #262626;
 	border-radius: 5px;
 }
 
 ul li span:nth-child(1){
-    background: white;
+    background: black;
     color: white;
     border-radius: 5px;
 	
@@ -224,7 +225,7 @@ ul li span:nth-child(1){
 .grey:hover{
 	font-family: arial;
 	text-decoration: none;
-	color: rgb(60, 60, 60);
+	color: rgb(160, 160, 160);
 	position: absolute;
 	bottom: 13px;
 	left: 30px;
@@ -247,10 +248,33 @@ ul li span:nth-child(1){
 .grey2:hover{
 	font-family: arial;
 	text-decoration: none;
-	color: rgb(60, 60, 60);
+	color: rgb(160, 160, 160);
 	position: absolute;
 	bottom: 13px;
 	right: 30px;
+	z-index: 1;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.grey4{
+	font-family: arial;
+	text-decoration: none;
+	color: rgb(100, 100, 100);
+	position: absolute;
+	bottom: 13px;
+	left: 90px;
+	z-index: 1;
+	font-size: 15px;
+}
+
+.grey4:hover{
+	font-family: arial;
+	text-decoration: none;
+	color: rgb(160, 160, 160);
+	position: absolute;
+	bottom: 13px;
+	left: 90px;
 	z-index: 1;
 	font-size: 15px;
 	cursor: pointer;
@@ -266,6 +290,60 @@ ul li span:nth-child(1){
 	left: 30px;
 	z-index: 1;
 	font-size: 15px;
+}
+
+.settingicon{
+	position: absolute;
+	width: 30px;
+}
+
+.settingicon2{
+	position: absolute;
+	width: 30px;
+}
+
+.ul2{
+	position: absolute;
+	border-radius: 2px;
+	border-top-left-radius: 2px;
+	top: -6px;
+	right: -6px;
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+	overflow: hidden;
+	font-family: Arial;
+	font-style: bold;
+	font-weight: bold;
+
+}
+
+.ul2 .li2{
+	list-style: none;
+	width: 100px;
+	height: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+.ul2.active .li2{
+	transform: translateY(-30px);
+}
+.ul2 .li2 span{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	width: 100px;
+	background: white;
+	color: #262626;
+	border-radius: 5px;
+}
+
+.ul2 .li2 span:nth-child(1){
+    background: white;
+    color: white;
+    border-radius: 5px;
+	
 }
 
 
